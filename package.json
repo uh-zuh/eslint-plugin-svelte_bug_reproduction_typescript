@@ -1,0 +1,20 @@
+{
+  "name": "eslint-plugin-svelte_bug_reproduction_typescript",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "lint:with_bug": "eslint --config .eslintrc_with_bug.cjs .",
+    "lint:with_hotfix": "eslint --config .eslintrc_with_hotfix.cjs ."
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-svelte": "^2.35.0",
+    "svelte": "^4.0.5",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.2"
+  }
+}
